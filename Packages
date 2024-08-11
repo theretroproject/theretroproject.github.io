@@ -1,28 +1,709 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: bag.xml.alienbluebutgood
+Version: 1.0-1+debug
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Maintainer: bag.xml
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
+Filename: ./bag.xml.alienbluebutgood_1.0-1+debug.deb
+Size: 5188
+MD5sum: b47b3f6228bc46ff3f4ec3f3d2a14550
+SHA1: 1e86de9790236aef693f0520a3da5a7a25ba34f2
+SHA256: 3986d46edcfc99419dcf1bd1db42d616657bc0e6ea06c9e85ad7a8de67b7b436
+Section: Tweaks
+Description: Fixes Alien Blue's media URL load failures. Alien Blue is failing to load certain thumbnails and images for a few years now. Clicking on an image post usually results in showing a broken reddit webpage web view, which is abnormal. So I fixed it.
+Author: bag.xml
+Name: ABMediaFixer
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Package: bag.xml.alienbluebutgood
+Version: 1.1-1+debug
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Maintainer: bag.xml
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
+Filename: ./bag.xml.alienbluebutgood_1.1-1+debug.deb
+Size: 3846
+MD5sum: b7415265cac2f4a01cd0bafc879b89b4
+SHA1: e6df7c53ae5d5f7b593ceae2c72782236dae251d
+SHA256: 588a23f5398378f14d19d633f45507ccb72c41745446b53c5eb58b06f46db561
+Section: Tweaks
+Description: Fixes Alien Blue's media URL load failures. Alien Blue is failing to load certain thumbnails and images for a few years now. Clicking on an image post usually results in showing a broken reddit webpage web view, which is abnormal. So I fixed it. UPDATE 1.1: Added iPad Support (Alien Blue HD)
+Author: bag.xml
+Name: AB Media Fixer
+
+Package: bag.xml.tuberepair
+Version: 1.0-Alpha-1-15+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./bag.xml.tuberepair_1.0-Alpha-1-15+debug.deb
+Size: 38232
+MD5sum: a8cc713952a9e5f42d5721e86a166c76
+SHA1: 27104772c773194a11e55988567689c8165ab91d
+SHA256: 0ee0b1445508d17e21b3fa093807120e4befc646b5d5b662a515c4c6e385e8b7
+Section: Tweaks
+Description: yeah
+Author: bag.xml
+Icon: icon.png
+Name: TubeRepair - Tweak
+
+Package: bag.xml.tuberepair
+Version: 1.0-Alpha-2-2+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./bag.xml.tuberepair_1.0-Alpha-2-2+debug.deb
+Size: 38474
+MD5sum: 3025055bd5770654b1788c913ceb59ce
+SHA1: a5b051c1a4775ed90bb5a208f08bdb07def755de
+SHA256: e3d63da6a8dab7484918c471deb1dca450475568aad7a2615f5930ccad478ca5
+Section: Tweaks
+Description: (Keep in mind, this is a BETA, its NOT FINISHED, and stuff MAY NOT WORK). TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications.
+Author: bag.xml
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.0-Alpha-3-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./bag.xml.tuberepair_1.0-Alpha-3-1+debug.deb
+Size: 38684
+MD5sum: 19db6b5bc71329cc03a65aee2d22f20b
+SHA1: 63f54aac8c03f65d71e56f8d23c4e4929706dcf2
+SHA256: c50767b847e0c6ffd2acd838afa23824c6ffec18b6dc0df72a327a0a22771ecc
+Section: Tweaks
+Description: (Keep in mind, this is a BETA, its NOT FINISHED, and stuff MAY NOT WORK). TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications.
+Author: bag.xml
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.0-Alpha-4-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 168
+Depends: mobilesubstrate, preferenceloader
+Filename: ./bag.xml.tuberepair_1.0-Alpha-4-1+debug.deb
+Size: 38778
+MD5sum: ccfe48112c527d67b9cb28f89e6a0b2d
+SHA1: 2d73d4e66be1de87867d8a9d2458def89c3b6aec
+SHA256: dea90267bdc2eb03c10d2dcb91e2f920a62564442c8ca89d9e905fc4b9461be2
+Section: Tweaks
+Description: (Keep in mind, this is a BETA, its NOT FINISHED, and stuff MAY NOT WORK). TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.mali357.gay/guide)
+Author: bag.xml
+Name: TubeRepair [BETA]
+
+Package: bag.xml.tuberepair
+Version: 1.0-Beta-1-1+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 280
+Depends: mobilesubstrate, preferenceloader
+Filename: ./bag.xml.tuberepair_1.0-Beta-1-1+debug.deb
+Size: 85544
+MD5sum: fd5b006a2e0ea9606c9a6209c3fcc29d
+SHA1: b629aca87c2df46dc5f2184041dbe256b7637403
+SHA256: d4dcbeebc7855152a526e5bdf923e4c09c44e64b965283c5505bb03ef41ee00c
+Section: Tweaks
+Description: (Keep in mind, this is a BETA, its NOT FINISHED, and stuff MAY NOT WORK). TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.mali357.gay/guide)
+Author: bag.xml, Requis
+Name: TubeRepair [BETA]
+
+Package: bag.xml.vineredirect
+Version: 1.0-6+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 296
+Depends: mobilesubstrate, preferenceloader
+Filename: ./bag.xml.vineredirect_1.0-6+debug.deb
+Size: 21844
+MD5sum: d5f2aa5779921172d90b0182aa71e467
+SHA1: 28cbf001773184bbf558cc37793714ce36465b79
+SHA256: cb84d7c865b64b4138e0b98138befd5c69d086dbf3ebfeaf3f0b90d1d992b8f9
+Section: Tweaks
+Description: Allows you to redirect Vine's apiary traffic to a custom URL
+Author: bag.xml
+Name: VineRedirect
+
+Package: com.aoi.storefix
+Version: 1.0-6
+Architecture: iphoneos-arm
+Maintainer: aoi_satou
+Depends: firmware  (<= 6.1.6)
+Conflicts: com.aoi.storefix
+Filename: ./com.aoi.storefix_1.0-6.deb
+Size: 1270
+MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
+SHA1: d4ab9af662df651022afaa6775de04450d787ca7
+SHA256: a7d02f5ca487cff4770ee68eb1409ad48f126dacf77adace7f2b681422bd7829
+Section: System
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Tag: purpose::extension
+Author: aoi_satou
+Depiction: http://aoiblog.jp/appstorefix_history.html
+Dev: aoi_satou
+Name: AppStoreFix
+
+Package: com.bagxml.storelayoutsfix
+Version: 1.0-3+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 76
+Depends: mobilesubstrate, firmware(<==6)
+Filename: ./com.bagxml.storelayoutsfix_1.0-3+debug.deb
+Size: 6250
+MD5sum: 9d3e9ea60a02813ff706c53f6ffc89c4
+SHA1: 1faa80c6e802c57f923b723036605d8cc6ac2287
+SHA256: fd0a5835ba882d7333259ccc94b8a0bb4d37f222bed5618726dfb63ffc027a6f
+Section: Tweaks
+Description: This tweak fixes current layout problems with the iTunes Store, and any other app that depends on it. Mostly used on iOS 6, can also fix iOS 6 era Podcasts and iBooks running on 7.x.
+Author: bag.xml, Requis
+Name: StoreLayoutsFix [BETA]
+
+Package: com.isecpartners.nabla.sslkillswitch
+Version: 0.6-1
+Architecture: iphoneos-arm
+Maintainer: Alban Diquet <alban@isecpartners.com>
+Installed-Size: 76
+Depends: mobilesubstrate, preferenceloader
+Filename: ./com.isecpartners.nabla.sslkillswitch_0.6-1.deb
+Size: 6932
+MD5sum: 6cce8560d4951adffd2519d4469c45ee
+SHA1: f9501ab76e4ea1ebfcb5eb501fe5ca7e077ea195
+SHA256: 0d4b15cde7f22b49ec556de7bd08cf80ca22eadeeaeed01e4dc9627d86e1c72d
+Section: Tweaks
+Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS Apps.
+Author: Alban Diquet <alban@isecpartners.com>
+Name: iOS SSL Kill Switch
+
+Package: com.ixmoe.1pwn.Veteris
+Version: 1.7.2
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Filename: ./com.ixmoe.1pwn.Veteris_1.7.2.deb
+Size: 484306
+MD5sum: f2d6c53be6b33a98665af70375dcc9d6
+SHA1: e56cb72d8e8fcf37b5545b419d12523cf3c401ca
+SHA256: 86596bc69d7dd75229e245fa8ac66c3191c7b7ded512aec18f2ccb5d1f4f9c0c
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: A Client for the Veteris Server.
+Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: com.ixmoe.1pwn.Veteris
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Filename: ./com.ixmoe.1pwn.Veteris_2.0.0.deb
+Size: 2078256
+MD5sum: b0cc5b1fa8b389cb51c3b8670f0d6d76
+SHA1: 47e11f21b090acbff6c198e477e9b5e75b87265b
+SHA256: 5c6e60ad808baa5b98c13533e2acac325c43e4a6234b65de7e39dd56ab40397f
+Section: Utilities
+Homepage: http://1pwn.ixmoe.com/
+Description: A Client for the Veteris Server.
+Author: Electimon <electimon@gmail.com>
+Icon: file:///Applications/Veteris.app/AppIcon57x57@2x.png
+Name: Veteris
+
+Package: com.obscure.weatherx64
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Mauro Calderón
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.obscure.weatherx64_0.0.1.deb
+Size: 2654
+MD5sum: 219e28f2ca944e1f874199781db2164f
+SHA1: c64502dafe2a859d0c4ad922d66071bd551c6591
+SHA256: 4976f2a6d8a987937dc961cadf43736077f746fcceedf2f483e33b81c5c19a20
+Section: Tweaks
+Description: WeatherX but compiled for 64 bit devices, forwards requests to my server! (Only install in iPhone 5s and above)
+Author: Mauro Calderón
+Name: weatherx64
+
+Package: com.skyglow.earthx
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.skyglow.earthx_1.0.deb
+Size: 3900
+MD5sum: aede38341cad905ad22361b303d84562
+SHA1: d95fd65cc9d3bf39e7ac9f1f9aefc1ef2c08bdea
+SHA256: 644210b061605b42932dbf9c951826863dfdd9b422987139e50eda4f83ee2550
+Section: Tweaks
+Description: Enjoy Google Earth again with this small tweak!, just install it, and Google Earth will  work again. (Only tested on iOS 6)
+Author: Requis
+Name: EarthX
+
+Package: com.skyglow.itunesstorex
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis, Daph
+Installed-Size: 216
+Depends: mobilesubstrate, firmware(<==6)
+Filename: ./com.skyglow.itunesstorex_2.0.deb
+Size: 9564
+MD5sum: dd61e7042169e2d0c5e5f3199da69906
+SHA1: 7217208fe18d7a366d31deb6aa46c4dc249efc00
+SHA256: e225c525d5fa170ff95b21126a2ae2b3cfb3b7ec95cdc1b25e854110dbffc1db
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: https://cydia.skyglow.es/depictions/?p=com.skyglow.itunesstorex
+Name: iTunesStoreX
+
+Package: com.skyglow.itunesstorex
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./com.skyglow.itunesstorex_2.5.deb
+Size: 106508
+MD5sum: fe7579e05ac248a38df0a065fc92f6dc
+SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
+SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Name: iTunesStoreX
+
+Package: com.skyglow.mapsx
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 56
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.skyglow.mapsx_1.0.deb
+Size: 3048
+MD5sum: b48722ebe498e0bb490b2ec613850715
+SHA1: 11aa84cf9e21e7623bdfbe4295407e88731e42bd
+SHA256: 5369ae00bffe8ff93c40fdd0e222a2ae2512ad228fb12b428d891eee1ffb8c6b
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URL's, this only works because Apple decided to lift their tile server restriction, so enjoy it will it lasts! (Currently hybrid nor satellite view works) PLEASE REBOOT AFTER INSTALLING
+Author: Requis
+Name: MapsX
+
+Package: com.skyglow.mapsx
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.skyglow.mapsx_1.1.deb
+Size: 4646
+MD5sum: 6a7b45ea4f7537614abc943dcd87b9d8
+SHA1: 6172f3299bac611a81ef2243ed5d19fb5abdb024
+SHA256: 3c6ae0e1b99a5df89fe20e1f1fc1de615fefc21894be3179c3516c82e91a3fd7
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URL's, this only works because Apple decided to lift their tile server restriction, so enjoy it will it lasts! (Currently hybrid nor satellite view works) PLEASE REBOOT AFTER INSTALLING
+Author: Requis
+Name: MapsX
+
+Package: com.skyglow.mapsx
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.skyglow.mapsx_2.0.deb
+Size: 4950
+MD5sum: 2f2dd770a5957a64f5231bc64717f228
+SHA1: df034e552859b65c1838187e50ad7ab61842880e
+SHA256: b2775e72f63bc4e20209d7b501367de63b7dfbfb9c08201eefb42a5c71709886
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
+Author: Requis
+Depiction: https://cydia.skyglow.es/depictions/?p=com.skyglow.mapsx
+Name: MapsX
+
+Package: com.skyglow.stocksx
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate, firmware (>= 2.0), firmware (<= 7.0)
+Conflicts: com.ixmoe.1pwn.stockx
+Filename: ./com.skyglow.stocksx_2.1.deb
+Size: 17230
+MD5sum: 35213ad7f427b38e047c199abf7f2419
+SHA1: a4c005e5c08367c3c1fb844c3febf06f4820b994
+SHA256: c6eb4bcd63fd86862c1e57441ca5cb5d868c6e4d7e091d1652315844c3f2ce54
+Section: Tweaks
+Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
+Name: StocksX
+
+Package: com.skyglow.weatherx
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./com.skyglow.weatherx_1.0.deb
+Size: 3762
+MD5sum: ae8a93a017aa55e8516592166f594e5b
+SHA1: fa7d355eaefab27b6571315fc2af5c9c9757c410
+SHA256: ba26253382cf3f902953f995381cc3e32d6cda5a5f3785ef5fe4257d925a49e6
+Section: Tweaks
+Description: WeatherX but using Requi's servers
+Author: Requis
+Name: WeatherX
+
+Package: com.skyglow.weatherx
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./com.skyglow.weatherx_2.0.deb
+Size: 5340
+MD5sum: 6b9c5e1f1e858b92925bda5118d4e70d
+SHA1: f51b4f8363a310eca96acbe6e3d45126a636c564
+SHA256: eba176627f1e77a0083922e1e2dd90a4569d1d6a674890f028b9b1f7819aa4f7
+Section: Tweaks
+Description: WeatherX but using Requi's servers, now also fixes weather widget in the notification center.
+Author: Requis
+Name: WeatherX
+
+Package: com.skyglow.weatherx
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.0)
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: ./com.skyglow.weatherx_3.0.deb
+Size: 52710
+MD5sum: 099da3b15e2e6de121b18d2dea9e2d22
+SHA1: 9fabce02f7850b528adc3c9ecb372e5efb6f2f8e
+SHA256: 92532a9d7427a31f83f797fcad4c1d838759012f0b187c15378b1c764c52e0d6
+Section: Tweaks
+Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
+Author: Requis
+Depiction: https://skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.weatherx/WeatherX-Icon.png
+Name: WeatherX
+
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./net.angelxwind.appsyncunified_84.0.deb
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: org.mtmdev.YewTube
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Electimon <electimon@gmail.com>
+Depends: firmware (>= 5.0), appsync
+Filename: ./org.mtmdev.YewTube_1.0.1.deb
+Size: 180100
+MD5sum: 91d09c8e3134fdbfb3a9c948243e78e2
+SHA1: 042c068488d86338863dfb41ad992eb201203755
+SHA256: 7e96fdd3d2ef88642ae779fbe923bca394eb3d9f6ed0546e266b589647dfc58e
+Section: Internet
+Homepage: http://mtmdev.org
+Description: A YouTube client made in Objective-C utilizing the power of Invidious.
+Author: Electimon <electimon@gmail.com>
+Icon: http://2pwn.tk/dev/icons/YewTube.png
+Name: YewTube
+
+Package: preferenceloader-armv6
+Version: 2.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <dustin@howett.net>
+Installed-Size: 28
+Depends: mobilesubstrate
+Conflicts: preferenceloader, cy+cpu.arm64, cy+cpu.armv7
+Provides: preferenceloader
+Filename: ./preferenceloader-armv6_2.1.1-1.deb
+Size: 9774
+MD5sum: 47b7e1772f01d975822a08e582a8272a
+SHA1: 3da32504a996b0ef3eadd5375c326be7a530c16f
+SHA256: 43f59ef3197caeaeb2c6c192fd211e4a2afa91e087f9354b711585a50d60cfec
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <dustin@howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader (armv6)
+
+Package: trevir.Discord
+Version: 0.2.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.2.2.deb
+Size: 67602
+MD5sum: 745a4eca22f8cd37ff36344e48524319
+SHA1: e8232130a71d58ea9e06c12e2b50035e9021b602
+SHA256: 3ff9b132a1336fdf3a190f6cff94289f6ecdc3e24c181604b589e148fa78c0f2
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.3.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.3.1.deb
+Size: 69180
+MD5sum: 346ae1ad863a10e976a9e9d4f8298ca4
+SHA1: c798828b6c1684fdff1f7054281ae7c3b63bda61
+SHA256: 2ddfdd22e5268a085150a4a18b9b36152243425cd4e841d4bfafd3c396865c0b
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.3.1b
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.3.1b.deb
+Size: 80598
+MD5sum: 036198e55612be92ae300dae3dc120a3
+SHA1: 73d576457fcbe235f7fc6699d280ff6666b56c40
+SHA256: 3def1194e2409f225f269345cb6129bc09af7c9f5d0d2b60f1027199200ee77f
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.4.deb
+Size: 84936
+MD5sum: 9e18457548c0d7cd0ad90a11e3d1ff22
+SHA1: 6679b2aff55e382d1d86836ccdfd0828afb2367b
+SHA256: 947368b7e2da55537e43a58b46f60f8b274c901694a908f40824243f4147bc99
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.5
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.5.deb
+Size: 359590
+MD5sum: 7852635bc1e6ea5210a02287e6d7be44
+SHA1: d1662fd298b2fd2c73e89fc001b12802ed370b2f
+SHA256: 595a77c335b272bee3df745fb3975ca0cb6f49bcfc24f6213b2e8eb73b6b3342
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.6
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.6.deb
+Size: 356692
+MD5sum: 5fad9086d6e1d15a56c1997a58b519e0
+SHA1: 44cf002a96036477c660f3b3a076414254d1b3b2
+SHA256: 459410edf45cf2cf6681e2607b5cbdf3a428f439cb9c7ffb3e0a3e15e6ca2066
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png
+Name: Discord Classic
+
+Package: trevir.Discord
+Version: 0.8.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (>=5.0)
+Filename: ./trevir.Discord_0.8.2.deb
+Size: 809152
+MD5sum: 336ea13fc34e95839f3592fe30198611
+SHA1: 557b417327e62f97c5cb56773a6a657ed8e2831d
+SHA256: d86bb4b6b678d879bb6e88ad07039ae0ed4a09fe2e9ba3aa3a82836cd5e8c24c
+Section: Social
+Description: Discord client for iOS 5 & 6 by Trevir
+Author: Trevir <triveri@outlook.com>
+Depiction: http://cydia.invoxiplaygames.uk/dp/classicdiscord.php
+Icon: file:///Applications/Discord.app/Icon@2x.png
+Name: Discord Classic
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./uk.invoxiplaygames.checkmatestore_1.0.deb
+Size: 4526
+MD5sum: 0cf8f191025744d188a84aea76ea3bde
+SHA1: e2aabe60c440a0f48da3b3ebd4dddb0d1042a2aa
+SHA256: db524798383458869787d062f913ddff2cbb67373ebe29d25db56c2b6a81a8d7
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 3.0)
+Filename: ./uk.invoxiplaygames.checkmatestore_1.0.1.deb
+Size: 4500
+MD5sum: 4c2de15f36445e0c2f56db6556382ef8
+SHA1: 4e0e35ad0267b06e542fee20e88277db713a8946
+SHA256: aab1424060b1275db46a060f64c7ba3d3f71e308c17627c7cdd6d6466dfe17e3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./uk.invoxiplaygames.checkmatestore_1.1.deb
+Size: 4518
+MD5sum: c2ea6cc05a4452f3549ff653e70a4273
+SHA1: ca2f5aabc512960c665d258738e7d47c55c413f5
+SHA256: 0c159a005985a54f45133402a89b027233d06389c322f8450454786340a3fe28
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./uk.invoxiplaygames.checkmatestore_1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: uk.invoxiplaygames.cydiahttpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (<< 4.0)
+Filename: ./uk.invoxiplaygames.cydiahttpatch_1.0.deb
+Size: 2842
+MD5sum: 2100205abecf06d1a7d72d2636e770c4
+SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
+SHA256: 2c6ff66a0498eea88f786a17b8ca79400ae311a2f5f80d97eaeed44d4fe9d9bf
+Section: Tweaks
+Description: Removes HTTPS from Cydia to use on iOS 3.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/cydiahttpatch.php
+Name: Cydia HTTPatch
+
+Package: uk.invoxiplaygames.googlesigninfix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 52
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./uk.invoxiplaygames.googlesigninfix_1.0.deb
+Size: 3430
+MD5sum: 813eb007f8623bc3651382562e1334af
+SHA1: 5ecc059d779e443882d37af48f62a4bc0dbdf58a
+SHA256: 73c8713552d77e304095b17392f70f91ebd1442bc3b06c820f351586ba15c0d4
+Section: Tweaks
+Description: Fixes Google-owned app login on iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Name: GSignInFix
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Depends: firmware (<=5.1.1) | com.tekwik.youtube
+Filename: ./uk.invoxiplaygames.tubefixer_1.1.deb
+Size: 894
+MD5sum: 10955db2ddb81393bb34291216331bc7
+SHA1: a7bf0a8692380f211b72f0c8463054c390e3a065
+SHA256: 5c1dea24dd4321a3b8a0a5528075e2f700978d7e54b412b121510f69afdc5a9f
+Section: Utilities
+Description: A simple little fixer for the good ol' YouTube app from iOS 1 to iOS 5! Now has experimental support for iOS 6.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Name: TubeFixer
+
+Package: uk.invoxiplaygames.tubefixer
+Version: 2.0-152+debug
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.13.25-5)
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./uk.invoxiplaygames.tubefixer_2.0-152+debug.deb
+Size: 27972
+MD5sum: 3099d5610e8e73426a947fcf646fffcf
+SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
+SHA256: 7912801feec7ec8062a39a0187976647da05cfe16026147a65ec2ecd58dd7c00
+Section: Tweaks
+Homepage: http://tubefixer.ovh/
+Description: Package to fix YouTube on iOS 3-5
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/tubefixer.php
+Icon: file:///Library/Application%20Support/uk.invoxiplaygames.tubefixer/tubefixericon.png
+Name: TubeFixer for iOS
 
