@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0)
-Filename: ./bag.xml.alienbluebutgood_1.0-1+debug.deb
+Filename: ./debs/bag.xml.alienbluebutgood_1.0-1+debug.deb
 Size: 5188
 MD5sum: b47b3f6228bc46ff3f4ec3f3d2a14550
 SHA1: 1e86de9790236aef693f0520a3da5a7a25ba34f2
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0)
-Filename: ./bag.xml.alienbluebutgood_1.1-1+debug.deb
+Filename: ./debs/bag.xml.alienbluebutgood_1.1-1+debug.deb
 Size: 3846
 MD5sum: b7415265cac2f4a01cd0bafc879b89b4
 SHA1: e6df7c53ae5d5f7b593ceae2c72782236dae251d
@@ -36,7 +36,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./bag.xml.tuberepair_1.0-Alpha-1-15+debug.deb
+Filename: ./debs/bag.xml.tuberepair_1.0-Alpha-1-15+debug.deb
 Size: 38232
 MD5sum: a8cc713952a9e5f42d5721e86a166c76
 SHA1: 27104772c773194a11e55988567689c8165ab91d
@@ -53,7 +53,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./bag.xml.tuberepair_1.0-Alpha-2-2+debug.deb
+Filename: ./debs/bag.xml.tuberepair_1.0-Alpha-2-2+debug.deb
 Size: 38474
 MD5sum: 3025055bd5770654b1788c913ceb59ce
 SHA1: a5b051c1a4775ed90bb5a208f08bdb07def755de
@@ -69,7 +69,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./bag.xml.tuberepair_1.0-Alpha-3-1+debug.deb
+Filename: ./debs/bag.xml.tuberepair_1.0-Alpha-3-1+debug.deb
 Size: 38684
 MD5sum: 19db6b5bc71329cc03a65aee2d22f20b
 SHA1: 63f54aac8c03f65d71e56f8d23c4e4929706dcf2
@@ -85,7 +85,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 168
 Depends: mobilesubstrate, preferenceloader
-Filename: ./bag.xml.tuberepair_1.0-Alpha-4-1+debug.deb
+Filename: ./debs/bag.xml.tuberepair_1.0-Alpha-4-1+debug.deb
 Size: 38778
 MD5sum: ccfe48112c527d67b9cb28f89e6a0b2d
 SHA1: 2d73d4e66be1de87867d8a9d2458def89c3b6aec
@@ -101,7 +101,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml, Requis
 Installed-Size: 280
 Depends: mobilesubstrate, preferenceloader
-Filename: ./bag.xml.tuberepair_1.0-Beta-1-1+debug.deb
+Filename: ./debs/bag.xml.tuberepair_1.0-Beta-1-1+debug.deb
 Size: 85544
 MD5sum: fd5b006a2e0ea9606c9a6209c3fcc29d
 SHA1: b629aca87c2df46dc5f2184041dbe256b7637403
@@ -117,7 +117,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 296
 Depends: mobilesubstrate, preferenceloader
-Filename: ./bag.xml.vineredirect_1.0-6+debug.deb
+Filename: ./debs/bag.xml.vineredirect_1.0-6+debug.deb
 Size: 21844
 MD5sum: d5f2aa5779921172d90b0182aa71e467
 SHA1: 28cbf001773184bbf558cc37793714ce36465b79
@@ -133,7 +133,7 @@ Architecture: iphoneos-arm
 Maintainer: aoi_satou
 Depends: firmware  (<= 6.1.6)
 Conflicts: com.aoi.storefix
-Filename: ./com.aoi.storefix_1.0-6.deb
+Filename: ./debs/com.aoi.storefix_1.0-6.deb
 Size: 1270
 MD5sum: fb1224b0f97b71a5040606f5fa0b4b37
 SHA1: d4ab9af662df651022afaa6775de04450d787ca7
@@ -152,7 +152,7 @@ Architecture: iphoneos-arm
 Maintainer: bag.xml
 Installed-Size: 76
 Depends: mobilesubstrate, firmware(<==6)
-Filename: ./com.bagxml.storelayoutsfix_1.0-3+debug.deb
+Filename: ./debs/com.bagxml.storelayoutsfix_1.0-3+debug.deb
 Size: 6250
 MD5sum: 9d3e9ea60a02813ff706c53f6ffc89c4
 SHA1: 1faa80c6e802c57f923b723036605d8cc6ac2287
@@ -168,7 +168,7 @@ Architecture: iphoneos-arm
 Maintainer: Alban Diquet <alban@isecpartners.com>
 Installed-Size: 76
 Depends: mobilesubstrate, preferenceloader
-Filename: ./com.isecpartners.nabla.sslkillswitch_0.6-1.deb
+Filename: ./debs/com.isecpartners.nabla.sslkillswitch_0.6-1.deb
 Size: 6932
 MD5sum: 6cce8560d4951adffd2519d4469c45ee
 SHA1: f9501ab76e4ea1ebfcb5eb501fe5ca7e077ea195
@@ -183,7 +183,7 @@ Version: 1.7.2
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync
-Filename: ./com.ixmoe.1pwn.Veteris_1.7.2.deb
+Filename: ./debs/com.ixmoe.1pwn.Veteris_1.7.2.deb
 Size: 484306
 MD5sum: f2d6c53be6b33a98665af70375dcc9d6
 SHA1: e56cb72d8e8fcf37b5545b419d12523cf3c401ca
@@ -200,7 +200,7 @@ Version: 2.0.0
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync
-Filename: ./com.ixmoe.1pwn.Veteris_2.0.0.deb
+Filename: ./debs/com.ixmoe.1pwn.Veteris_2.0.0.deb
 Size: 2078256
 MD5sum: b0cc5b1fa8b389cb51c3b8670f0d6d76
 SHA1: 47e11f21b090acbff6c198e477e9b5e75b87265b
@@ -218,7 +218,7 @@ Architecture: iphoneos-arm
 Maintainer: Mauro Calderón
 Installed-Size: 72
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.obscure.weatherx64_0.0.1.deb
+Filename: ./debs/com.obscure.weatherx64_0.0.1.deb
 Size: 2654
 MD5sum: 219e28f2ca944e1f874199781db2164f
 SHA1: c64502dafe2a859d0c4ad922d66071bd551c6591
@@ -234,7 +234,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.skyglow.earthx_1.0.deb
+Filename: ./debs/com.skyglow.earthx_1.0.deb
 Size: 3900
 MD5sum: aede38341cad905ad22361b303d84562
 SHA1: d95fd65cc9d3bf39e7ac9f1f9aefc1ef2c08bdea
@@ -250,7 +250,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis, Daph
 Installed-Size: 216
 Depends: mobilesubstrate, firmware(<==6)
-Filename: ./com.skyglow.itunesstorex_2.0.deb
+Filename: ./debs/com.skyglow.itunesstorex_2.0.deb
 Size: 9564
 MD5sum: dd61e7042169e2d0c5e5f3199da69906
 SHA1: 7217208fe18d7a366d31deb6aa46c4dc249efc00
@@ -267,7 +267,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis, Bag.xml
 Installed-Size: 312
 Depends: mobilesubstrate, firmware(<==7.9)
-Filename: ./com.skyglow.itunesstorex_2.5.deb
+Filename: ./debs/com.skyglow.itunesstorex_2.5.deb
 Size: 106508
 MD5sum: fe7579e05ac248a38df0a065fc92f6dc
 SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
@@ -285,7 +285,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Installed-Size: 56
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.skyglow.mapsx_1.0.deb
+Filename: ./debs/com.skyglow.mapsx_1.0.deb
 Size: 3048
 MD5sum: b48722ebe498e0bb490b2ec613850715
 SHA1: 11aa84cf9e21e7623bdfbe4295407e88731e42bd
@@ -301,7 +301,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.skyglow.mapsx_1.1.deb
+Filename: ./debs/com.skyglow.mapsx_1.1.deb
 Size: 4646
 MD5sum: 6a7b45ea4f7537614abc943dcd87b9d8
 SHA1: 6172f3299bac611a81ef2243ed5d19fb5abdb024
@@ -317,7 +317,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.skyglow.mapsx_2.0.deb
+Filename: ./debs/com.skyglow.mapsx_2.0.deb
 Size: 4950
 MD5sum: 2f2dd770a5957a64f5231bc64717f228
 SHA1: df034e552859b65c1838187e50ad7ab61842880e
@@ -334,7 +334,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Depends: mobilesubstrate, firmware (>= 2.0), firmware (<= 7.0)
 Conflicts: com.ixmoe.1pwn.stockx
-Filename: ./com.skyglow.stocksx_2.1.deb
+Filename: ./debs/com.skyglow.stocksx_2.1.deb
 Size: 17230
 MD5sum: 35213ad7f427b38e047c199abf7f2419
 SHA1: a4c005e5c08367c3c1fb844c3febf06f4820b994
@@ -351,7 +351,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./com.skyglow.weatherx_1.0.deb
+Filename: ./debs/com.skyglow.weatherx_1.0.deb
 Size: 3762
 MD5sum: ae8a93a017aa55e8516592166f594e5b
 SHA1: fa7d355eaefab27b6571315fc2af5c9c9757c410
@@ -368,7 +368,7 @@ Maintainer: Requis
 Installed-Size: 216
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ixmoe.1pwn.weatherx
-Filename: ./com.skyglow.weatherx_2.0.deb
+Filename: ./debs/com.skyglow.weatherx_2.0.deb
 Size: 5340
 MD5sum: 6b9c5e1f1e858b92925bda5118d4e70d
 SHA1: f51b4f8363a310eca96acbe6e3d45126a636c564
@@ -384,7 +384,7 @@ Architecture: iphoneos-arm
 Maintainer: Requis
 Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.0)
 Conflicts: com.ixmoe.1pwn.weatherx
-Filename: ./com.skyglow.weatherx_3.0.deb
+Filename: ./debs/com.skyglow.weatherx_3.0.deb
 Size: 52710
 MD5sum: 099da3b15e2e6de121b18d2dea9e2d22
 SHA1: 9fabce02f7850b528adc3c9ecb372e5efb6f2f8e
@@ -405,7 +405,7 @@ Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubst
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./net.angelxwind.appsyncunified_84.0.deb
+Filename: ./debs/net.angelxwind.appsyncunified_84.0.deb
 Size: 42058
 MD5sum: 979c1973c503b9eb4e9e1151d97c4421
 SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
@@ -422,7 +422,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: Electimon <electimon@gmail.com>
 Depends: firmware (>= 5.0), appsync
-Filename: ./org.mtmdev.YewTube_1.0.1.deb
+Filename: ./debs/org.mtmdev.YewTube_1.0.1.deb
 Size: 180100
 MD5sum: 91d09c8e3134fdbfb3a9c948243e78e2
 SHA1: 042c068488d86338863dfb41ad992eb201203755
@@ -442,7 +442,7 @@ Installed-Size: 28
 Depends: mobilesubstrate
 Conflicts: preferenceloader, cy+cpu.arm64, cy+cpu.armv7
 Provides: preferenceloader
-Filename: ./preferenceloader-armv6_2.1.1-1.deb
+Filename: ./debs/preferenceloader-armv6_2.1.1-1.deb
 Size: 9774
 MD5sum: 47b7e1772f01d975822a08e582a8272a
 SHA1: 3da32504a996b0ef3eadd5375c326be7a530c16f
@@ -461,7 +461,7 @@ Version: 0.2.2
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.2.2.deb
+Filename: ./debs/trevir.Discord_0.2.2.deb
 Size: 67602
 MD5sum: 745a4eca22f8cd37ff36344e48524319
 SHA1: e8232130a71d58ea9e06c12e2b50035e9021b602
@@ -477,7 +477,7 @@ Version: 0.3.1
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.3.1.deb
+Filename: ./debs/trevir.Discord_0.3.1.deb
 Size: 69180
 MD5sum: 346ae1ad863a10e976a9e9d4f8298ca4
 SHA1: c798828b6c1684fdff1f7054281ae7c3b63bda61
@@ -493,7 +493,7 @@ Version: 0.3.1b
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.3.1b.deb
+Filename: ./debs/trevir.Discord_0.3.1b.deb
 Size: 80598
 MD5sum: 036198e55612be92ae300dae3dc120a3
 SHA1: 73d576457fcbe235f7fc6699d280ff6666b56c40
@@ -509,7 +509,7 @@ Version: 0.4
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.4.deb
+Filename: ./debs/trevir.Discord_0.4.deb
 Size: 84936
 MD5sum: 9e18457548c0d7cd0ad90a11e3d1ff22
 SHA1: 6679b2aff55e382d1d86836ccdfd0828afb2367b
@@ -525,7 +525,7 @@ Version: 0.5
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.5.deb
+Filename: ./debs/trevir.Discord_0.5.deb
 Size: 359590
 MD5sum: 7852635bc1e6ea5210a02287e6d7be44
 SHA1: d1662fd298b2fd2c73e89fc001b12802ed370b2f
@@ -541,7 +541,7 @@ Version: 0.6
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.6.deb
+Filename: ./debs/trevir.Discord_0.6.deb
 Size: 356692
 MD5sum: 5fad9086d6e1d15a56c1997a58b519e0
 SHA1: 44cf002a96036477c660f3b3a076414254d1b3b2
@@ -558,7 +558,7 @@ Version: 0.8.2
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (>=5.0)
-Filename: ./trevir.Discord_0.8.2.deb
+Filename: ./debs/trevir.Discord_0.8.2.deb
 Size: 809152
 MD5sum: 336ea13fc34e95839f3592fe30198611
 SHA1: 557b417327e62f97c5cb56773a6a657ed8e2831d
@@ -576,7 +576,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: ./uk.invoxiplaygames.checkmatestore_1.0.deb
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.0.deb
 Size: 4526
 MD5sum: 0cf8f191025744d188a84aea76ea3bde
 SHA1: e2aabe60c440a0f48da3b3ebd4dddb0d1042a2aa
@@ -593,7 +593,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 3.0)
-Filename: ./uk.invoxiplaygames.checkmatestore_1.0.1.deb
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.0.1.deb
 Size: 4500
 MD5sum: 4c2de15f36445e0c2f56db6556382ef8
 SHA1: 4e0e35ad0267b06e542fee20e88277db713a8946
@@ -610,7 +610,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./uk.invoxiplaygames.checkmatestore_1.1.deb
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.1.deb
 Size: 4518
 MD5sum: c2ea6cc05a4452f3549ff653e70a4273
 SHA1: ca2f5aabc512960c665d258738e7d47c55c413f5
@@ -627,7 +627,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 164
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./uk.invoxiplaygames.checkmatestore_1.2.deb
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.2.deb
 Size: 5200
 MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
 SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
@@ -644,7 +644,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Installed-Size: 100
 Depends: cydia, mobilesubstrate, firmware (<< 4.0)
-Filename: ./uk.invoxiplaygames.cydiahttpatch_1.0.deb
+Filename: ./debs/uk.invoxiplaygames.cydiahttpatch_1.0.deb
 Size: 2842
 MD5sum: 2100205abecf06d1a7d72d2636e770c4
 SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
@@ -661,7 +661,7 @@ Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames
 Installed-Size: 52
 Depends: mobilesubstrate, firmware (>= 6.0)
-Filename: ./uk.invoxiplaygames.googlesigninfix_1.0.deb
+Filename: ./debs/uk.invoxiplaygames.googlesigninfix_1.0.deb
 Size: 3430
 MD5sum: 813eb007f8623bc3651382562e1334af
 SHA1: 5ecc059d779e443882d37af48f62a4bc0dbdf58a
@@ -677,7 +677,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
 Depends: firmware (<=5.1.1) | com.tekwik.youtube
-Filename: ./uk.invoxiplaygames.tubefixer_1.1.deb
+Filename: ./debs/uk.invoxiplaygames.tubefixer_1.1.deb
 Size: 894
 MD5sum: 10955db2ddb81393bb34291216331bc7
 SHA1: a7bf0a8692380f211b72f0c8463054c390e3a065
@@ -694,7 +694,7 @@ Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Installed-Size: 136
 Pre-Depends: dpkg (>= 1.13.25-5)
 Depends: mobilesubstrate, firmware (>= 2.0)
-Filename: ./uk.invoxiplaygames.tubefixer_2.0-152+debug.deb
+Filename: ./debs/uk.invoxiplaygames.tubefixer_2.0-152+debug.deb
 Size: 27972
 MD5sum: 3099d5610e8e73426a947fcf646fffcf
 SHA1: 8971219e0b2c4dee1632631a72507d387689deb6
